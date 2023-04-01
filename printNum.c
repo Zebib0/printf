@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isdigit - checks if the value is digit
+ * _isdigit - checks if character is digit
  * @c: the character to check
  *
  * Return: 1 if digit, 0 otherwise
@@ -13,9 +13,9 @@ int _isdigit(int c)
 
 /**
  * _strlen - returns the length of a string
- * @s: the string value
+ * @s: the string whose length to check
  *
- * Return: length of string
+ * Return: integer length of string
  */
 int _strlen(char *s)
 {
